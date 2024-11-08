@@ -1,0 +1,103 @@
+
+/* Main container styling */
+#main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+
+  background: radial-gradient(circle at bottom right, rgba(205, 46, 40, 1) 60%, white 40%);
+}
+
+/* Container for logo */
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: 20%;  */
+  text-align: center;
+
+  flex: 0 0 40%;
+}
+
+/* Logo styling */
+.logo img {
+  width: 80%;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+/* Content styling for worker image and text */
+.content {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+/* Worker image styling */
+.worker-image {
+  width: 50%;
+ height: 50%;
+}
+
+/* Background gradient section */
+.check {
+  width: 100%;
+ 
+  display: flex;
+  justify-content: center;
+
+  flex: 0 0 60%;
+}
+
+/* Text styling */
+.text {
+  margin-top: 5%; /* Adjusted for better alignment */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.text span {
+  font-family: Roboto ;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.text span:nth-child(1) {
+
+  font-weight: 300;
+  line-height: 1.6rem;
+}
+.text span:nth-child(1) span {
+
+  font-weight: 500;
+}
+.text span:nth-child(2) {
+font-size: 1.1rem;
+  font-weight: 300;
+  line-height: 1.4rem;
+}
+/* CTA Button styling */
+.cta-button {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.871);
+  border: none;
+  padding: 22px 30px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.cta-button img {
+  width: 38px;
+  height: 28px;
+}

@@ -1,0 +1,1 @@
+export const azureApi='https://appsvc-apibackend-dev.azurewebsites.net/v1.0/';

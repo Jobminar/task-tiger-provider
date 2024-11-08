@@ -1,0 +1,18 @@
+<div class="container">
+    <span class="material-symbols-outlined notranslate" (click)="navTOBack()">
+        arrow_back
+      </span>
+    <button (click)="takePicture()">Take Picture</button>
+      <div class="sub-container">
+        @if (imageUrl) {
+            <div class="image">
+                 <img  [src]="imageUrl" alt="Captured Image" >
+            </div>
+            <div class="button-div">
+                <button (click)="submit()">Submit</button>
+            </div>
+            
+        }
+      </div>
+    
+</div>
